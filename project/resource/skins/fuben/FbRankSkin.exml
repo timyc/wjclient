@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FbRankSkin" width="310" height="152" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="162ae48e599"/>
+	<e:Image source="ui_fb_bm_paimingbg" width="310" height="152"/>
+	<e:Label text="Name" x="78.425" y="14" style="l_yellow_2" size="20" fontFamily="Arial" stroke="1" bold="true"/>
+	<e:Label id="rankBtn" text="Stage" x="230.589" y="13.61" size="20" style="l_green" name="btn" fontFamily="Arial" stroke="1" bold="true"/>
+	<e:Group width="0" height="0" x="12" y="50">
+		<e:Label text="1" x="0" y="0" size="20" scaleX="1" scaleY="1" textColor="0xd27702" stroke="1" bold="true" fontFamily="Arial"/>
+		<e:Label id="name01" text="Empty" x="18" y="0" size="20" scaleX="1" scaleY="1" width="172" textAlign="left" textColor="0xd27702" stroke="1" bold="true"/>
+		<e:Label id="ca01" text="Floor 0" x="195" y="0" size="20" scaleX="1" scaleY="1" width="93" textAlign="left" textColor="0xd27702" stroke="1" bold="true" fontFamily="Arial"/>
+	</e:Group>
+	<e:Group width="0" height="0" x="12" y="86">
+		<e:Label text="2" x="0" y="0" size="20" scaleX="1" scaleY="1" textColor="0xc500ff" stroke="1" bold="true" fontFamily="Arial"/>
+		<e:Label id="name02" text="Empty" x="18" y="0" size="20" scaleX="1" scaleY="1" width="172" textAlign="left" textColor="0xc500ff" stroke="1" bold="true" fontFamily="Arial"/>
+		<e:Label id="ca02" text="Floor 0" x="195" y="0" size="20" scaleX="1" scaleY="1" width="93" textAlign="left" textColor="0xc500ff" stroke="1" bold="true" fontFamily="Arial"/>
+	</e:Group>
+
+    <e:Group width="0" height="0" x="12" y="122">
+		<e:Label text="3" x="0" y="0" size="20" scaleX="1" scaleY="1" textColor="0x1147ff" stroke="1" bold="true" fontFamily="Arial"/>
+		<e:Label id="name03" text="Empty" x="18" y="0" size="20" scaleX="1" scaleY="1" width="172" textAlign="left" textColor="0x1147ff" stroke="1" bold="true" fontFamily="Arial"/>
+		<e:Label id="ca03" text="Floor 0" x="195" y="0" size="20" scaleX="1" scaleY="1" width="93" textAlign="left" textColor="0x1147ff" stroke="1" bold="true" fontFamily="Arial"/>
+	</e:Group>
+</e:Skin>

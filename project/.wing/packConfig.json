@@ -1,0 +1,11 @@
+{
+    "useClip": false,
+    "maxImageWidth": 2048,
+    "maxImageHeight": 2048,
+    "defaultResPath": "d:\\Dev\\xiyou\\client\\project\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true,
+        "thm2": true,
+        "thm3": true
+    }
+}

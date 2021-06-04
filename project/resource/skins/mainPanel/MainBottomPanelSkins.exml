@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainBottomPanelSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15f94526f62"/>
+	
+	<e:Group id="bottomBgGroup" height="142" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="0" width="100%">
+		<e:Image touchEnabled="false" anchorOffsetY="0" y="-8.613" source="ui_bm_icombg1-46" horizontalCenter="-0.5"/>
+		<e:ProgressBar id="expBar" y="127" height="15.5" anchorOffsetX="0" anchorOffsetY="0" value="100" scaleX="1" scaleY="1" skinName="bar1Skin" left="0" right="0" visible="true" alpha="1">
+		</e:ProgressBar>
+		<e:Group height="-16" y="30.186" scaleX="1" scaleY="1" touchEnabled="false" touchChildren="true" width="720" horizontalCenter="5">
+			<e:Button id="fightBtn" icon="ui_bm_zhandou" skinName="MainBottomBtnSkin" scaleX="0.75" scaleY="0.75"/>
+			<e:Button id="cityBtn" icon="ui_bm_zhucheng" skinName="MainBottomBtnSkin" x="10" y="10" scaleY="0.75" scaleX="0.75"/>
+			<e:Button id="roleBtn" icon="ui_bm_juese" skinName="MainBottomBtnSkin" scaleX="0.75" scaleY="0.75"/>
+			<e:Button id="forgingBtn" icon="ui_bm_fuli" skinName="MainBottomBtnSkin" scaleX="0.75" scaleY="0.75"/>
+			<e:Button id="xiannvBtn" icon="ui_bm_xianlv" skinName="MainBottomBtnSkin" x="20" y="20" scaleY="0.75" scaleX="0.75"/>
+			<e:Button id="petBtn" icon="ui_bm_chongwu" skinName="MainBottomBtnSkin" x="30" y="30" scaleY="0.75" scaleX="0.75"/>
+			<e:layout>
+			<e:HorizontalLayout gap="30" horizontalAlign="center" verticalAlign="contentJustify"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="bossUpdateGroup" y="1090.186" anchorOffsetY="0" height="43" horizontalCenter="-210.5">
+		<e:Image anchorOffsetY="0" anchorOffsetX="0" source="ui_zjm_bm_tishi" left="0" top="0" bottom="-34" right="0" />
+		<e:Label id="bossNameTxt" text="Tooltip Text" size="20" style="l_white" top="15" bottom="8" left="20" right="20" textAlign="center" fontFamily="Arial"/>
+	</e:Group>
+
+	
+
+</e:Skin>
